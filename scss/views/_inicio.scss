@@ -1,0 +1,23 @@
+.contenedor__principal{
+    min-height: 100vh;
+    border: 1px solid red;
+    padding: 20px;
+    
+    &__archivo{
+        margin-top: 50px;
+        
+        
+    }
+    &__boton{
+        margin-top: 50px;
+        border: 1px solid blue;
+    }
+    &__img{
+        margin-top: 50px;
+        border: 1px solid red;
+        img{
+            width: 80%;
+        }
+        
+    }
+}
