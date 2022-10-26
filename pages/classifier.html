@@ -5,38 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/estilos.css">
 
     <title>Espectroscopio</title>
 </head>
 <body>
-  <header >
-    <nav class="navbar navbar-expand-lg navbar-dark sticky-md-top bg-dark">
-        <div class="container-fluid ">
-            <img src="/multimedia/ico.jpg" alt="" width="30" height="24">
-            <a class="navbar-brand" href="#">Spectrum</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse " id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 nav__ul ">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="/index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/paginas/data.html">Data Base</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="/paginas/classifier.html">Classifier</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/paginas/about.html">About us</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+  <header>
+    <div class="contenedor">
+      <a href="/index.html"><img src="/multimedia/ico.jpg"></a>
+      <i class="fa-solid fa-bars" id="boton__menu"></i>
 
+    </div>
+    <div class="menu__desplegable" id="menu">
+      <div class="menu__desplegable__contenedor">
+          <nav class="menu__desplegable__contenedor__nav">
+              <ul>
+                  <li><a href="/index.html" class="seleccionado">Spectrum</a></li>
+                  <li><a href="/pages/data.html">Data base</a></li>
+                  <li><a href="/pages/classifier.html" >Classifier</a></li>
+                  <li><a href="/pages/about.html">About us</a></li>
+              </ul>
+          </nav>
+      </div>
+  </div>
   </header>
 
     <main>
@@ -163,5 +155,6 @@
     <!-- Copyright -->
   </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
+    <script src="/js/header.js"></script>
+  </body>
 </html>
